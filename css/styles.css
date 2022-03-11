@@ -5,7 +5,7 @@
   align-items: center;
   margin-top: 5%;
 }
-/*DIV DEL CHASIS DE LA GAMEBOY*/
+/*DIV DEL CHASIS DE LA GAMEBOY CON SUS BORDES*/
 .chasis{
   display: flex;
   flex-direction: column;
@@ -21,6 +21,7 @@
   display: flex;
   flex-direction: column;
 }
+/*BORDE NEGRO DE LA PANTALLA*/
 .bordepantalla{
   display: flex;
   justify-content: center;
@@ -30,11 +31,13 @@
   height: 296px;
   border-radius: 8px 8px 16px 16px;
 }
+/*CONTENEDOR DEL DISPLAY*/
 .pantalla{
   display: flex;
   justify-content: center;
   height: 100%;
 }
+/*DIV DEL DISPLAY DE LA PANTALLA GRIS*/
 .display{
   margin-top: 40px;
   position: relative;
@@ -42,43 +45,51 @@
   height: 216px;
   background-color: grey;
 }
+/*CONTENEDOR DEL DIV DEL BORDE INFERIOR*/
 .borderedondo{
   display: flex;
   justify-content: center;
 }
+/*BORDE REDONDO DE LA PARTE INFERIOR DE LA PANTALLA*/
 .borderedondopantalla{
   margin-top: 16px;
   background-color: black;
-  height: 45.5px;
+  height: 45px;
   width: 570px;
   border-radius: 40%;
   display: inline-block;
 }
+/*CONTENEDOR DEL LOGO*/
 .nombre{
   display: flex;
   justify-content: center;
   height: 100%;
 }
+/*LOGO GAMEBOY COLOR*/
 .logo{
   position: relative;
   height: 32px;
 }
+/*CONTENEDOR PARTE INFERIOR ENTERA*/
 .contenedorinferior{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
+/*CONTENEDOR CON LOS DIVS DE LOS BOTONES SUPERIORES*/
 .botonessup{
   display: flex;
   height: 35%;
 }
+/*CONTENEDOR DE LA IMG DEL PAD*/
 .pad{
   position: relative;
   display: flex;
   margin-right: 88px;
   margin-top: 32px;
 }
+/*CONTENEDOR CON LOS BOTONES A y B*/
 .botones{
   display: flex;
   justify-content: center;
@@ -87,6 +98,7 @@
   height: 160px;
   width: 160px;
 }
+/*CONTENEDOR DEL BOTON B*/
 .btnB{
   display: flex;
   justify-content: center;
@@ -95,9 +107,10 @@
   width: 48px;
   margin-top: 35.2px;
 }
+/*BOTON B*/
 .B{
   display: flex;
-  background-color: black;
+  background-color: rgb(100, 100, 100);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   align-items: center;
@@ -106,6 +119,7 @@
   height: 32px;
   border-radius: 50%;
 }
+/*CONTENEDOR DEL BOTON A*/
 .btnA{
   display: flex;
   justify-content: center;
@@ -113,9 +127,10 @@
   height: 80px;
   width: 48px;
 }
+/*BOTON A*/
 .A{
   display: flex;
-  background-color: black;
+  background-color: rgb(100, 100, 100);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   align-items: center;
@@ -124,6 +139,7 @@
   height: 32px;
   border-radius: 50%;
 }
+/*CONTENEDOR DE LOS BOTONES SELECT y START*/
 .slctstrt{
   display: flex;
   justify-content: center;
@@ -133,29 +149,32 @@
   width: 160px;
   margin-top: 64px;
 }
+/*BOTON SELECT*/
 .contselect{
   display: flex;
   justify-content: center;
-  background-color: black;
-  height: 9.6px;
+  background-color: rgb(100, 100, 100);
+  height: 10px;
   width: 32px;
   border-radius: 16px 16px;
   margin: 8px;
 }
+/*BOTON START*/
 .contstart{
   display: flex;
   justify-content: center;
-  background-color: black;
-  height: 9.6px;
+  background-color: rgb(100, 100, 100);
+  height: 10px;
   width: 32px;
   border-radius: 16px 16px;
   margin: 8px;
 }
+/*BORDE REDONDEADO INFERIOR*/
 .chasiscircunfinf{
   display: inline-block;
-  margin-top: 35.2px;
+  margin-top: 35px;
   background-color: yellow;
-  height: 55.5px;
+  height: 55px;
   width: 370px;
   border-radius: 50%;
 }
