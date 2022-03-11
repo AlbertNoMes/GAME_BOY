@@ -1,8 +1,11 @@
-.body{
+/*DIV PRINCIPAL CON TODO DENTRO*/
+.contenedor{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 5%;
 }
+/*DIV DEL CHASIS DE LA GAMEBOY*/
 .chasis{
   display: flex;
   flex-direction: column;
@@ -12,6 +15,7 @@
   border-radius: 16px 16px 32px 32px;
   position: relative;
 }
+/*DIV CON LOS DIVS DE LA PANTALLA*/
 .contenedorpantalla{
   margin: 20px 20px 16px;
   display: flex;
